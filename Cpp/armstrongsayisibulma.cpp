@@ -3,7 +3,7 @@
 
 int main()
  {
-int sayi, yuzler, onlar, birler, rakamintoplami, rakamkupu ; //değişken tanımlıyoruz.
+int sayi, yuzler, onlar, birler, rakamintoplami, rakamkupu ; //deÄŸiÅŸken tanÄ±mlÄ±yoruz.
 
 
 printf("Bir sayi giriniz: ");
@@ -15,16 +15,16 @@ yuzler = sayi / 100;
 onlar = (sayi / 10) % 10;
 birler = sayi % 10;
 
-// rakamların küplerinin toplamını hesaplayalım.
+// rakamlarÄ±n kÃ¼plerinin toplamÄ±nÄ± hesaplayalÄ±m.
 
 rakamkupu = (yuzler*yuzler*yuzler) + (onlar*onlar*onlar) + (birler*birler*birler);
 
 
-// rakamların toplamını hesaplayalım
+// rakamlarÄ±n toplamÄ±nÄ± hesaplayalÄ±m
 rakamintoplami = yuzler + onlar + birler;
 
 
-// koşulları test edelim
+// koÅŸullarÄ± test edelim
 if (rakamkupu == sayi) {
 printf("Armstrong sayisidir.\n");
 }
