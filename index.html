@@ -1,0 +1,84 @@
+<!-- 
+Ders: Programlama Dilleri Prensipleri
+Öğrenci: Aysenur Yıldız
+Numara: 2240656807
+Ödev No: 153
+Tarih: 21.05.2026
+ -->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <!-- Türkçe karakter desteği -->
+    <meta charset="UTF-8">
+
+    <!-- Mobil uyumluluk -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sayfa başlığı -->
+    <title>Custom DOM Event Sistemi</title>
+
+    <!-- CSS dosyası bağlantısı -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Ana kapsayıcı -->
+    <div class="container">
+
+        <!-- Sayfa başlığı -->
+        <h1>Görev Yönetim Paneli</h1>
+
+        <!-- Görev ekleme alanı -->
+        <div class="task-area">
+
+            <!-- Görev giriş kutusu -->
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Görev giriniz">
+
+            <!-- Görev ekleme butonu -->
+            <button id="addTaskBtn">
+                Görev Ekle
+            </button>
+
+        </div>
+
+        <!-- Filtreleme alanı -->
+        <div class="filter-area">
+
+            <!-- Tüm görevleri göster -->
+            <button class="filter-btn" data-filter="all">
+                Tümü
+            </button>
+
+            <!-- Tamamlanan görevleri göster -->
+            <button class="filter-btn" data-filter="completed">
+                Tamamlanan
+            </button>
+
+            <!-- Aktif görevleri göster -->
+            <button class="filter-btn" data-filter="active">
+                Aktif
+            </button>
+
+        </div>
+
+        <!-- Görevlerin listeleneceği alan -->
+        <ul id="taskList">
+
+        </ul>
+
+    </div>
+
+    <!-- JavaScript dosyası bağlantısı -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

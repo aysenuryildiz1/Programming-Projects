@@ -1,0 +1,129 @@
+/* 
+Ders: Programlama Dilleri Prensipleri
+Öğrenci: Aysenur Yıldız
+Numara: 2240656807
+Ödev No: 153
+Tarih: 21.05.2026
+ */
+
+/* Sayfa genel ayarları */
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+/* Ana kutu */
+.container {
+
+    width: 500px;
+
+    margin: 50px auto;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Başlık */
+h1 {
+
+    text-align: center;
+
+    color: #333;
+}
+
+/* Görev ekleme alanı */
+.task-area {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+/* Input kutusu */
+#taskInput {
+
+    flex: 1;
+
+    padding: 10px;
+
+    font-size: 16px;
+}
+
+/* Butonlar */
+button {
+
+    padding: 10px;
+
+    border: none;
+
+    background-color: #ff4fa3;
+
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+/* Buton hover efekti */
+button:hover {
+
+    background-color: #d63384;
+}
+
+/* Filtre alanı */
+.filter-area {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+/* Görev listesi */
+#taskList {
+
+    list-style: none;
+
+    padding: 0;
+}
+
+/* Her görev */
+.task-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #eeeeee;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+/* Tamamlanan görev */
+.completed {
+
+    text-decoration: line-through;
+
+    opacity: 0.6;
+}
