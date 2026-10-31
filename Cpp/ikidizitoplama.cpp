@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 
-//5 elemanlı iki dizinin toplamını üçüncü bir diziye yazan program.
+//5 elemanlÃ½ iki dizinin toplamÃ½nÃ½ Ã¼Ã§Ã¼ncÃ¼ bir diziye yazan program.
 
 int A[5], B[5],C[5];
 int i;
@@ -15,7 +15,7 @@ for(i=0;i<5;i++)
    scanf ("%d",&A[i]);
 }
 
-printf("B dizisi elemanları girin:");
+printf("B dizisi elemanlarÃ½ girin:");
 
 for(i=0;i<5;i++){
 	
