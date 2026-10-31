@@ -1,45 +1,21 @@
-#  Hotel Reservation System
+# Programming Projects
 
-A console-based hotel reservation system developed using Java.
+Bu depo, farklı programlama dilleri kullanılarak geliştirdiğim projeleri içermektedir.
 
-##  About The Project
+## Languages
 
-This project is a simple hotel reservation management application that allows users to manage customers, rooms, and reservations through a menu-driven interface.
+### Java
+Java dili ile geliştirdiğim projeler.
+- Otel Rezervasyon Sistemi
 
-##  Features
-
-- Add new customers
-- List available rooms
-- Create hotel reservations
-- List existing reservations
-- Check room availability for reservation dates
-- Add conflicting reservations to a waiting list
-- Cancel reservations
-- Activate waiting list reservations when a reservation is cancelled
-
-##  Technologies & Concepts
-
-- Java
-- Object-Oriented Programming (OOP)
-- HashMap
-- ArrayList
-- Linked List (Custom Implementation)
-- LocalDate
-- Exception Handling
-
-##  Project Structure
-
-- `Main.java` – Main application and menu operations
-- `Oda` – Room information
-- `Musteri` – Customer information
-- `Rezervasyon` – Reservation information
-- `Node` – Linked list node
-- `BeklemeListesi` – Waiting list management
-
-##  How to Run
-
-1. Install Java JDK.
-2. Clone this repository.
-3. Open the project in a Java IDE.
-4. Run `Main.java`.
-
+### C / C++
+C ve C++ dilleri ile geliştirdiğim algoritma ve uygulamalar.
+- Armstrong Sayısı Bulma
+- Asal Sayı Bulma
+- Basit Hesap Makinesi
+- Ders Not Takip Sistemi
+- Diziler
+- Faktöriyel Hesaplama
+- İki Dizi Toplama
+- Öğrenci Listeleme
+- Pazar Sistemi
