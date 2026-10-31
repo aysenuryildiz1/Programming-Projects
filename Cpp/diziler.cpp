@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	
-	//Kullanıcıdan alınan 5 tamsayı değerini bir dizide saklayan ve bu değerlerin ortalamasını bulan bir program
+	//KullanÄ±cÄ±dan alÄ±nan 5 tamsayÄ± deÄŸerini bir dizide saklayan ve bu deÄŸerlerin ortalamasÄ±nÄ± bulan bir program
 	int dizi[5];
 	int i,toplam=0;
 	float ort;
