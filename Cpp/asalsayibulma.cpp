@@ -6,15 +6,15 @@ int main() {
     int sayi, i, asal = 1;
 
    
-    printf("Bir sayi girin: ");    // Kullanıcıdan sayı alalım.
+    printf("Bir sayi girin: ");    // KullanÄ±cÄ±dan sayÄ± alalÄ±m.
     scanf("%d", &sayi);
 
-    // sayı negatifse veya bir ise asal olmaz koşulu yazalım.
+    // sayÄ± negatifse veya bir ise asal olmaz koÅŸulu yazalÄ±m.
     if (sayi <= 1) {
     asal = 0;
     
     } else {
-    // iki sayısından sayının kendisine kadar sayınıp bölünüp bölünmediğine bakalım
+    // iki sayÄ±sÄ±ndan sayÄ±nÄ±n kendisine kadar sayÄ±nÄ±p bÃ¶lÃ¼nÃ¼p bÃ¶lÃ¼nmediÄŸine bakalÄ±m
     
     for (i = 2; i <= sayi / 2; i++) 
 	{
@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    // sonucu yazdıralım.
+    // sonucu yazdÄ±ralÄ±m.
     if (asal == 1) {
         printf("%d asaldir.\n", sayi);
     } else {
